@@ -12,7 +12,7 @@ import xyz.sidetrip.banutil.commands.CommandHandler;
 public class Help extends Command {
 
 	public Help() {
-		super("help");
+		super("nothing");
 	}
 
 	@Override
