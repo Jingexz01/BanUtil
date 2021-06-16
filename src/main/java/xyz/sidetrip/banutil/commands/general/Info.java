@@ -14,7 +14,7 @@ import java.util.Calendar;
 public class Info extends Command {
 
     public Info() {
-        super("info");
+        super("nothing");
     }
 
     @Override
