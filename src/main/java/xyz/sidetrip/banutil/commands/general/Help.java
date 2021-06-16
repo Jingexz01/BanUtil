@@ -12,15 +12,15 @@ import xyz.sidetrip.banutil.commands.CommandHandler;
 public class Help extends Command {
 
 	public Help() {
-		super("nothing");
+		super("help");
 	}
 
 	@Override
 	public void execute(IMessage context, String... args) {
 		EmbedBuilder help = new EmbedBuilder();
-		help.withTitle(Emojis.BAN + " | BanUtil | Help");
+		help.withTitle(Emojis.BAN + " | Moderation Commands");
 		help.withColor(BanUtil.BANNING_COLOUR);
-		help.withDescription("Here's all the commands right now:");
+		help.withDescription("Here's all the Moderation Commands:");
 		StringBuilder commandList = new StringBuilder("```");
 		for (Command command: CommandHandler.getCommands().values()) {
 			commandList.append((command+"\n").replace("[CMD_KEY]", CommandHandler.KEY));
