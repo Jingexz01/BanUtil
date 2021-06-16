@@ -35,7 +35,7 @@ public class BanUtil implements Runnable {
 
     public static final String VERSION = BanUtil.class.getPackage().getImplementationVersion();
     // Silly
-    public static final int BANNING_COLOUR = 0xFF6961;
+    public static final int BANNING_COLOUR = 0x000000;
 
     public static class Status {
         public volatile boolean apiError;
